@@ -1,0 +1,131 @@
+
+.banner {
+	background: #e1e1e1;
+  width: 100%;
+  height: 500px;
+}
+.banner.slick-slide {
+	 margin-left: 0;
+	 margin-right: 0;
+}
+.banner h6 {
+  margin-bottom: 50px;
+}
+ .banner__wrapper {
+	 height: 700px;
+	 display: flex;
+	 justify-content: center;
+	 background-size: cover;
+	 background-position: center;
+	 display: block;
+	 padding: 24px;
+}
+ .banner__wrapper-mobile {
+	 height: 700px;
+	 display: flex;
+	 justify-content: center;
+	 background-size: cover;
+	 background-position: center;
+}
+ .banner__contrast {
+	 color: white !important;
+}
+ .banner__contrast p {
+	 color: white !important;
+}
+ .banner__content {
+	 width: 50%;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+	 color: white;
+}
+ .banner__content__placement-right {
+	 position: relative;
+	 left: 25%;
+}
+ .banner__content__placement-left {
+	 position: relative;
+	 right: 25%;
+}
+ .banner__content__placement-bottom-center {
+	 width: 80%;
+	 position: relative;
+	 bottom: -20%;
+}
+ .banner__content__title {
+	 padding-bottom: 18px;
+}
+ .banner__content__text {
+	 width: 70%;
+	 margin-bottom:24px;
+}
+ .banner__content__body-text {
+	 width: 70%;
+	 margin-top: 30px;
+	 margin-bottom:30px;
+	 color: white;
+}
+ .banner__content__cta {
+	 padding-top: 58px;
+	 margin-top: 30px;
+}
+ .banner__content__cta .cta-button {
+	 display: inline-block;
+}
+.feature-column__content__cta {
+  margin-top: 30px;
+}
+
+ @media screen and (min-width: 768px) {
+	 .banner__wrapper-mobile {
+		
+	}
+}
+ @media screen and (min-width: 768px) and (max-width: 1200px) {
+	 .banner__wrapper {
+		 height: 550px;
+	}
+}
+ @media screen and (max-width: 1200px) {
+	 .banner__wrapper-mobile {
+		 display: flex;
+		 background-position-y: 20%;
+	}
+	 .banner__wrapper {
+		
+	}
+	 .banner__content {
+		 width: 80%;
+	}
+	 .banner__content__body-text {
+		
+	}
+	 .banner__content__cta {
+		 padding: 40px 0px;
+	}
+	 .banner__content__cta .cta-button:nth-child(2) {
+		 margin-top: 16px;
+	}
+	 .banner__content__text {
+		 font-size: 32px;
+		 width: 100%;
+	}
+	 .banner__content__placement-right {
+		 position: relative;
+		 left: 0%;
+		 bottom: -25%;
+	}
+	 .banner__content__placement-left {
+		 position: relative;
+		 left: 0%;
+		 bottom: -25%;
+	}
+	 .banner__content__placement-bottom-center {
+		 position: relative;
+		 left: 0%;
+		 bottom: -25%;
+	}
+}
+ 
