@@ -1,0 +1,12 @@
+.banner button {
+  outline: none;
+  border: none;
+  background: blue;
+}
+.banner button * {
+  color: white;
+}
+
+.banner .button.red {
+    background: red;
+}
